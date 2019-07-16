@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Hr from './components/Hr';
 import Hero from './components/Hero';
 import About from './components/About';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <Hero />
       <Hr color="#f04d4d" />
       <About />
+      <Hr color="#f26639" />
+      <Projects />
       <Hr color="#f26639" />
       <Footer />
     </div>
