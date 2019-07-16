@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Hr({ color }) {
-    console.log(color);
     const styles = {
         background: color,
         height: '.625rem'

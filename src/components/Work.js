@@ -3,20 +3,36 @@ import Job from './Job';
 
 export default class Work extends PureComponent {
     state = {
-        show: false
+        job: null,
+        show: null
+    }
+
+    componentDidMount(){
+        this.setState({
+            job: '',
+            show: false
+        })
     }
     //onclick logic that displays project detail info
-    handleClick
+    handleClick = (e) => {
+        this.setState({
+            job: e.currentTarget.dataset.id,
+            show: true
+        })
+        console.log(this.state);
+    }
+
     render() {
+        console.log('render', this.state);
         return (
             <section className="work">
                 <h2>My Work Experience:</h2>
                 <ul>
-                    <li>Copywriter - Mad Fish Digital</li>
-                    <li>Founder - Foster Digital Marketing</li>
-                    <li>Social Media Manager - Pink Martini</li>
-                    <li>Digital Director - Roger That Agency</li>
-                    <li>Tech Producer - Helios Interactive</li>
+                    <li data-id="madfish" onClick={this.handleClick}>Copywriter - Mad Fish Digital</li>
+                    <li data-id="foster" onClick={this.handleClick}>Founder - Foster Digital Marketing</li>
+                    <li data-id="pink" onClick={this.handleClick}>Social Media Manager - Pink Martini</li>
+                    <li data-id="roger" onClick={this.handleClick}>Digital Director - Roger That Agency</li>
+                    <li data-id="helios" onClick={this.handleClick}>Tech Producer - Helios Interactive</li>
                 </ul>
                 <section className="job-blurb">
                     <Job 

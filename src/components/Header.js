@@ -11,7 +11,7 @@ export default function Header() {
           <img id="home" style={{ height: '75px', margin: 'auto' }} src={headerLogo} alt="Ben Parisot Logo" />
         </a>
         <nav>
-          <li><a href="#">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a target="blank" href="https://herecodesnothing.com/">Blog</a></li>
