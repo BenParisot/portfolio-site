@@ -12,7 +12,7 @@ export default function Contact() {
                     <p><span className="contact-method">LinkedIn:</span> <a href="https://www.linkedin.com/in/benparisot/" target="blank">/benparisot</a></p>
                     <p><span className="contact-method">GitHub:</span> <a href="https://github.com/benparisot" target="blank">/benparisot</a></p>
                 </section>
-                <form name="contact" method="POST" netlify="true" data-netlify="true" data-netlify-honeypot="bot-field" action="/success">
+                <form name="contact" method="post" enctype="application/x-www-form-urlencoded" netlify="true" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="bot-field" />
                     <input type="text" name="name" defaultValue="Your Name" />
                     <input type="text" name="email" defaultValue="Your Email" />
