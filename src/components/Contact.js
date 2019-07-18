@@ -12,6 +12,12 @@ export default function Contact() {
                     <p><span className="contact-method">LinkedIn:</span> <a href="https://www.linkedin.com/in/benparisot/" target="blank">/benparisot</a></p>
                     <p><span className="contact-method">GitHub:</span> <a href="https://github.com/benparisot" target="blank">/benparisot</a></p>
                 </section>
+                <form name="contact" method="POST" data-netlify="true">
+                    <input type="text" name="name" defaultValue="Your Name" />
+                    <input type="text" name="email" defaultValue="Your Email" />
+                    <textarea name="message" defaultValue="Your Message" />
+                    <button type="submit">Submit Message</button>
+                </form>
             </section>
         </section>
     )
