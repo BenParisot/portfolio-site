@@ -5,7 +5,7 @@ export default function Success() {
     return (
         <section>
             <p>Thanks for your message! I will get back to you shortly</p>
-            <Link>Return Home</Link>
+            <Link to="/">Return Home</Link>
         </section>
     )
 }
