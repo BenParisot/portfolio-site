@@ -3,20 +3,20 @@ import Job from './Job';
 
 export default class Work extends PureComponent {
     state = {
-        title: '',
-        company: '',
-        description: '',
-        dates: ''
+        title: 'Copywriter',
+        company: 'Mad Fish Digital',
+        description: 'As a copywriter at Mad Fish, I was responsible for writing and styling posts for a variety of B2C and B2B blogs.',
+        dates: 'May 2008 - May 2011'
     }
 
-    componentDidMount(){
-        this.setState({
-            title: '',
-            company: '',
-            description: '',
-            dates: ''
-        })
-    }
+    // componentDidMount(){
+    //     this.setState({
+    //         title: '',
+    //         company: '',
+    //         description: '',
+    //         dates: ''
+    //     })
+    // }
     //onclick logic that displays project detail info
     handleClick = (e) => {
         this.setState({
