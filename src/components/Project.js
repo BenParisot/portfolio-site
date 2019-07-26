@@ -2,10 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Project({ title, image, description, demo, repo, color }) {
+
+    const styles = {
+        background: color
+    }
     return (
         <section className="project">
-            <section className="project-title">
-                <h3>Title</h3>
+            <section style={styles} className="project-title">
+                <h3>{title}</h3>
             </section>
             <img src={image} alt={title} />
             <p>{description}</p>

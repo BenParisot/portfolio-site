@@ -74,6 +74,55 @@ header nav a {
   width: 100%;
 }
 
+/* projects */
+
+.projects {
+  margin: 2.5rem 0rem;
+  padding: 0 1.2rem;
+}
+
+.project {
+  margin: 2rem 0 4rem 0;
+}
+
+.project-title {
+  padding: .8rem .5rem;
+}
+
+.project-title h3 {
+  text-transform: uppercase;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project p {
+  display: block;
+  margin: .7rem .6rem;
+  text-align: center;
+}
+
+.project h4 {
+  color: #f04d4d;
+  text-transform: uppercase;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.github-cta {
+  display: flex;
+  justify-content: center;
+  background: #f0ea49;
+  padding: 2rem 1rem;
+  color: #f04d4d;
+  text-transform: uppercase;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+}
+
 /* you see me i be work work work work work */
 
 .work {
