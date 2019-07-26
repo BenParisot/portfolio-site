@@ -20,6 +20,20 @@ h2 {
   color: #2d2a32;
 }
 
+button {
+  padding: .8rem 1rem;
+  background-color: #f0ea49;
+  color: #ed4b64;
+  border: none;
+  border-bottom: .4rem solid #f26639;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-style: italic;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  width: fit-content;
+}
+
 /* header */
 
 .logo-desktop {
@@ -85,10 +99,59 @@ header nav a {
   padding-left: 1rem;
 }
 
+.main-side {
+  display: none;
+}
+
+.below-hero-hr {
+  background: #f04d4d;
+  height: .625rem;
+  margin: 0 1rem;
+  border: none;
+  display: none;
+}
+
 /* about */
+
+.about {
+  margin: 2.5rem 0rem;
+  padding: 0 1.2rem;
+}
 
 .about img {
   width: 100%;
+  display: none;
+}
+
+.about-right {
+  margin: 1.5rem 0;
+}
+
+.introduction {
+  display: flex;
+}
+
+.tech, .tools {
+  margin-bottom: 1rem;
+}
+
+.tech ul, .tools ul {
+  padding: 1rem 0 0 3rem;
+  line-height: 2;
+  list-style: square;
+}
+
+.tech h4, .tools h4 {
+  color: #f04d4d;
+  text-transform: uppercase;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1.5rem;
+}
+
+.about-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.8rem;
 }
 
 /* projects */

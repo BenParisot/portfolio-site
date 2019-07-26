@@ -14,7 +14,7 @@ function Home() {
     <div className="App">
       <Header />
       <Hero />
-      <Hr color="#f04d4d" />
+      <hr className="below-hero-hr" />
       <About />
       <Hr color="#f26639" />
       <Projects />

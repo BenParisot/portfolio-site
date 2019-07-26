@@ -39,7 +39,9 @@ export default function About() {
                         <li>MadMapper</li>
                     </ul>
                 </section>
-                <button>View My Full Resume</button>
+                <section className="about-button">
+                    <button>View My Full Resume</button>
+                </section>
             </section>
         </section>
     )
