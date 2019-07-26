@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 function Job({ title, company, jobDescription, dates }) {
     return (
         <section className="job">
-            <h4>Title: {title}</h4>
-            <h4>Company: {company}</h4>
-            <h4>Description: {jobDescription}</h4>
-            <h4>Dates: {dates}</h4>
+            <h4><span className="job-label">Title:</span> {title}</h4>
+            <h4><span className="job-label">Company:</span> {company}</h4>
+            <h4><span className="job-label">Description:</span> {jobDescription}</h4>
+            <h4><span className="job-label">Dates:</span> {dates}</h4>
         </section>
     )
 }

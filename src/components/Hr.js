@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 function Hr({ color }) {
     const styles = {
         background: color,
-        height: '.625rem'
+        height: '.625rem',
+        margin: '0 1rem',
+        border: 'none'
     }
     return <hr style={styles} />
 }
