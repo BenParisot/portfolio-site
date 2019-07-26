@@ -54,18 +54,35 @@ header nav a {
 
 /* hero */
 
+
+.hero-left {
+  display: grid;
+}
+
 .triangle-topleft {
   width: 100%;
   height: 0;
-  border-top: 500px solid #f04d4d;
-  border-right: 500px solid transparent;
+  border-top: 24rem solid #f04d4d;
+  border-right: 24rem solid transparent;
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
 
 .triangle-bottomright {
   width: 100%;
   height: 0;
-  border-bottom: 500px solid #ed4b64;
-  border-left: 650px solid transparent;
+  border-bottom: 24rem solid #ed4b64;
+  border-left: 24rem solid transparent;
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.main-box {
+  display: flex;
+  align-items: center;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  padding-left: 1rem;
 }
 
 /* about */
