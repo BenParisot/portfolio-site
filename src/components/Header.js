@@ -8,14 +8,14 @@ import icon from '../assets/icon.jpg';
 export default function Header() {
     return (
        <header id="header" className="header">
-                 <img className="logo-desktop" id="home" style={{ height: '75px', margin: 'auto' }} src={headerLogo} alt="Ben Parisot Logo" />
-        <img className="logo-mobile" src={icon} alt="Ben Parisot Logo small" />
+        <a href="/"><img className="logo-desktop" id="home" style={{ height: '75px', margin: 'auto' }} src={headerLogo} alt="Ben Parisot Logo" />
+        <img className="logo-mobile" src={icon} alt="Ben Parisot Logo small" /></a>
         <a href="#main-menu"
           id="main-menu-toggle"
           className="menu-toggle"
           aria-label="Open main menu">
             <span className="sr-only">Open main menu</span>
-            <span className="fa fa-bars" aria-hidden="true"></span>
+            <span className="fa fa-bars fa-2x" aria-hidden="true"></span>
         </a>
 
         <nav id="main-menu" className="main-menu" aria-label="Main menu">
