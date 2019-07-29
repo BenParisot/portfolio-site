@@ -22,7 +22,7 @@ export default class Work extends PureComponent {
     render() {
         console.log('render', this.state);
         return (
-            <section className="work">
+            <section id="experience" className="work">
                 <h2>My Work Experience:</h2>
                 <ul className="experience">
                     <li data-title="Tech Producer" data-company="Helios Interactive" data-description="Part scrum master and part release manager, I worked with clients, producers, designers, and developers to keep projects on schedule and deliver working apps under strict deadlines." data-dates="July 2016 - Jan 2019" onClick={this.handleClick}>Tech Producer - Helios Interactive</li>
