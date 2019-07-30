@@ -34,6 +34,8 @@ button {
   width: fit-content;
 }
 
+/***** MOBILE STYLES ***/
+
 /* header */
 
 .fa-bars {
@@ -263,18 +265,16 @@ header nav a {
 }
 
 .triangle-topleft {
-  width: 100%;
   height: 0;
-  border-top: 24rem solid #f04d4d;
+  border-top: 375px solid #f04d4d;
   grid-column-start: 1;
   grid-row-start: 1;
 }
 
 .triangle-bottomright {
-  width: 100%;
   height: 0;
-  border-bottom: 24rem solid #ed4b64;
-  border-left: 24rem solid transparent;
+  border-bottom: 375px solid #ed4b64;
+  border-left: 375px solid transparent;
   grid-column-start: 1;
   grid-row-start: 1;
 }
@@ -472,3 +472,6 @@ footer a {
   font-weight: bold;
   font-family: 'Maven Pro', sans-serif;
 }
+
+
+/****** DESKTOP STYLING ****/
