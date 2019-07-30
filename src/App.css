@@ -42,7 +42,7 @@ footer {
   display: flex;
   justify-content: center;
   background-color: #F04d4d;
-  padding: 1.5rem 0rem;
+  padding: 3rem 0rem;
 }
 
 footer a {
@@ -435,12 +435,9 @@ footer a {
     margin: 0 auto;
     height: 4.0625rem;
     max-width: 95%;
-    margin-top: 1.3rem;
+    margin: 1.3rem 1rem;
     padding-right: .625rem;
     border-right: solid .5rem #f26639;
-  }
-  .social-links {
-    display: inline;
   }
 
   .menu-toggle {
@@ -455,4 +452,144 @@ footer a {
     display: flex;
     position: relative;
   }
+  
+  .logo-mobile {
+    display: none;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #2d2a32;
+    font-weight: bold;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.125rem;
+  }
+
+  nav a:hover {
+    color: #f26639;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 0px 15px;
+    border-right: 3px solid #ed4b64;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 15px 0px;
+  }
+  
+  nav li:nth-child(5n) {
+    border-right: none;
+  }
+  
+  /** hero **/
+  
+  .hero {
+    display: grid;
+    grid-template-columns: [left] 60% [right] 40%;
+    grid-template-rows: 100%;
+    height: 550px;
+    margin-bottom: 110px;
+}
+
+.hero-left {
+    display: grid;
+    grid-template-columns: [left] 20% [middle] 60% [right] 0%;
+    grid-template-rows: [top] 35% [bottom] 0%;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.main-box h1 {
+    font-size: 68px;
+    text-transform: uppercase;
+}
+  
+.triangle-topleft {
+  width: 650px;
+  height: 0;
+  border-top: 500px solid #f04d4d;
+  border-right: 500px solid transparent;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  /* grid-row-end: right; */
+}
+
+.triangle-bottomright {
+  width: 650px;
+  height: 0;
+  border-bottom: 500px solid #ed4b64;
+  border-left: 650px solid transparent;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+} 
+  
+  
+  /** about **/
+
+  /** projects **/
+
+  /** work experience **/
+
+  /** contact **/
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+
+
+.contact-message {
+  width: 40%;
+  padding: 2.5rem;
+}
+
+.contact-message p {
+  font-size: 1.8rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  border-left: 6px solid #f0ea49;
+  padding: 2.5rem;
+  margin-top: 1rem;
+  line-height: 2;
+  font-size: 1.125rem;
+}
+
+.contact-info a {
+    color: #2d2a32;
+}
+
+.contact-info a:hover {
+    color: #f26639;
+}
+
+.contact-method {
+    font-weight: bold;
+    color: #ed4b64;
+    text-transform: uppercase;
+}
+  
 }
