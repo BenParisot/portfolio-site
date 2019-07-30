@@ -546,7 +546,47 @@ footer a {
   /** projects **/
 
   /** work experience **/
+  .work {
+    margin: 4rem;
+    padding: 0 1.2rem;
+  }
 
+  .experience {
+    margin: 1rem 0 1rem 2rem;
+    line-height: 2;
+    list-style: square;
+  }
+
+  .experience li:hover {
+    color: #ed4b64;
+    cursor: pointer;
+  }
+
+  .experience li::selection {
+    color: #ed4b64;
+  }
+
+  .job-blurb {
+    background-color: #f0ea49;
+    padding: 2rem;
+    margin: 2rem 4rem;
+  }
+
+  .job {
+    line-height: 1.5;
+  }
+
+  .job h4 {
+    font-weight: normal;
+  }
+
+  .job-label {
+    font-weight: bold;
+    color: #ed4b64;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-family: 'Maven Pro', sans-serif;
+  }
   /** contact **/
 
   .contact {
