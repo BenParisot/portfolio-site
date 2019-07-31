@@ -11,6 +11,7 @@ export default function About() {
                 </section>
             </section>
             <section className="about-right">
+                <section className="tools-tech">
                 <section className="tech">
                     <h4>Tech</h4>
                     <ul>
@@ -38,6 +39,7 @@ export default function About() {
                         <li>TouchDesigner</li>
                         <li>MadMapper</li>
                     </ul>
+                </section>
                 </section>
                 <section className="about-button">
                     <button>View My Full Resume</button>
