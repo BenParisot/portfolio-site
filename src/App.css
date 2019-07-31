@@ -984,7 +984,7 @@ footer a {
 .hero-left {
     display: grid;
     grid-template-columns: [left] 10rem [right] 30rem;
-    grid-template-rows: [top] 15rem [bottom] 0%;
+    grid-template-rows: [top] 15rem [bottom] 18rem;
 }
 
 .hero-right {
@@ -1337,7 +1337,7 @@ footer a {
 .hero-left {
     display: grid;
     grid-template-columns: [left] 10rem [right] 30rem;
-    grid-template-rows: [top] 15rem [bottom] 0%;
+    grid-template-rows: [top] 15rem [bottom] 18rem;
 }
 
 .hero-right {
