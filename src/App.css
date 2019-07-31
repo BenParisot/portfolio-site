@@ -58,6 +58,10 @@ footer a {
 
 @media only screen and (max-width: 576px) {
 
+  hr {
+    margin: 3rem 2rem;
+  }
+
   /* header */
 
   header {
@@ -336,11 +340,19 @@ footer a {
   }
 
   .project h4 {
+    text-align: center;
+  }
+
+  .project a {
     color: #f04d4d;
     text-transform: uppercase;
     font-family: 'Maven Pro', sans-serif;
     font-weight: bold;
-    text-align: center;
+  }
+
+  .project-spacer {
+    display: inline;
+    margin: 0 .7rem;
   }
 
   .github-cta {
@@ -426,9 +438,14 @@ footer a {
 
 
 
-/* header */
 
 @media only screen and (min-width: 768px) {
+  
+  hr {
+    margin: 8rem 3rem;
+  }
+  
+  /* header */
   header {
     display: flex;
     justify-content: space-between;
@@ -655,12 +672,20 @@ footer a {
 }
 
 .project h4 {
+  text-align: center;
+}
+
+.project a {
   color: #f04d4d;
   text-transform: uppercase;
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
-  text-align: center;
   font-size: 1.125rem;
+}
+
+.project-spacer {
+  display: inline;
+  margin: 0 1rem;
 }
 
 .github-cta {

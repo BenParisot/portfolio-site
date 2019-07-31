@@ -42,7 +42,7 @@ export default function About() {
                 </section>
                 </section>
                 <section className="about-button">
-                    <button>View My Full Resume</button>
+                    <a target="blank" href="https://www.slideshare.net/slideshow/embed_code/key/COWKHqAXys5WEK"><button>View My Full Resume</button></a>
                 </section>
             </section>
         </section>
