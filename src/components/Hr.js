@@ -5,7 +5,7 @@ function Hr({ color }) {
     const styles = {
         background: color,
         height: '.625rem',
-        margin: '0 1rem',
+        margin: '8rem 3rem',
         border: 'none'
     }
     return <hr style={styles} />

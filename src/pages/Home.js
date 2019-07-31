@@ -14,13 +14,13 @@ function Home() {
     <div className="App">
       <Header />
       <Hero />
-      <hr className="below-hero-hr" />
+      <Hr color="#f04d4d" />
       <About />
       <Hr color="#f26639" />
       <Projects />
-      <Hr color="#f26639" />
-      <Work />
       <Hr color="#f04d4d" />
+      <Work />
+      <Hr color="#f26639" />
       <Contact />
       <Footer />
     </div>

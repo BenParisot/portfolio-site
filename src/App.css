@@ -489,17 +489,15 @@ footer a {
   /** hero **/
   
   .hero {
-    display: grid;
-    grid-template-columns: [left] 60% [right] 40%;
-    grid-template-rows: 100%;
-    height: 550px;
-    margin-bottom: 110px;
+    display: flex;
+    justify-content: center;
+    margin: 4rem 4rem 10rem 4rem;
 }
 
 .hero-left {
     display: grid;
-    grid-template-columns: [left] 20% [middle] 60% [right] 0%;
-    grid-template-rows: [top] 35% [bottom] 0%;
+    grid-template-columns: [left] 10rem [right] 30rem;
+    grid-template-rows: [top] 15rem [bottom] 0%;
 }
 
 .hero-right {
@@ -507,6 +505,7 @@ footer a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 3rem;
 }
 
 .main-box {
@@ -521,20 +520,18 @@ footer a {
 }
   
 .triangle-topleft {
-  width: 650px;
   height: 0;
-  border-top: 500px solid #f04d4d;
-  border-right: 500px solid transparent;
+  border-top: 33.044rem solid #f04d4d;
+  border-right: 40.7rem solid transparent;
   grid-column-start: 1;
   grid-row-start: 1;
   /* grid-row-end: right; */
 }
 
 .triangle-bottomright {
-  width: 650px;
   height: 0;
-  border-bottom: 500px solid #ed4b64;
-  border-left: 650px solid transparent;
+  border-bottom: 33rem solid #ed4b64;
+  border-left: 40.625rem solid transparent;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
