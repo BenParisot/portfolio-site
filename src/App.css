@@ -995,6 +995,10 @@ footer a {
     margin-left: 3rem;
 }
 
+.main-side p {
+  font-size: 1.125rem;
+}
+
 .main-box {
     grid-row-start: 2;
     grid-column-start: 2;
@@ -1346,6 +1350,10 @@ footer a {
     justify-content: center;
     align-items: center;
     margin-left: 3rem;
+}
+
+.main-side p {
+  font-size: 1.125rem;
 }
 
 .main-box {

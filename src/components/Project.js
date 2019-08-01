@@ -23,8 +23,9 @@ Project.propTypes = {
     image: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     demo: PropTypes.string,
-    repo: PropTypes.string.isRequired,
-    repoLink: PropTypes.string.isRequired,
+    demoLink: PropTypes.string,
+    repo: PropTypes.string,
+    repoLink: PropTypes.string,
     color: PropTypes.string.isRequired
 }
 
