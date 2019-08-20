@@ -24,7 +24,7 @@ export default function About() {
                         <li>Jest/Q-Unit</li>
                         <li>MongoDB/Firebase/AWS</li>
                         <li>Travis</li>
-                        <li>TDD/DDD</li>
+                        <li>TDD</li>
                     </ul>
                 </section>
                 <section className="tools">
