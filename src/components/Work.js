@@ -3,10 +3,10 @@ import Job from './Job';
 
 export default class Work extends PureComponent {
     state = {
-        title: 'Tech Producer',
-        company: 'Helios Interactive',
-        description: 'Part scrum master and part release manager, I worked with clients, producers, designers, and developers to keep projects on schedule and deliver working apps under strict deadlines.',
-        dates: 'July 2016 - Jan 2019',
+        title: 'Lead Developer',
+        company: 'Alchemy Code Lab',
+        description: 'As Lead Developer in Alchemy’s App Lab program I am responsible for managing development teams across multiple client projects, performing code reviews with developers, approving and merging pull requests,  architecting and building out new features, and resolving issues and bugs from the QA backlog. Current projects use ReactJS, Redux, React Router, Node.js, Express, Webpack, Cordova, TravisCI, Babel, Firebase, and Heroku, as well as HTML5, CSS3, Sass, and vanilla JavaScript..',
+        dates: 'Sept 2019 - Present',
         // selected: null
     }
 
@@ -39,9 +39,13 @@ export default class Work extends PureComponent {
                 <h2>My Work Experience:</h2>
                 <ul className="experience">
                     <li 
-                    data-title="Tech Producer" data-company="Helios Interactive" data-description="Part scrum master and part release manager, I worked with clients, producers, designers, and developers to keep projects on schedule and deliver working apps under strict deadlines." data-dates="July 2016 - Jan 2019" onClick={this.handleClick}>Tech Producer - Helios Interactive</li>
+                    data-title="Lead Developer" data-company="Alchemy Code Lab" data-description="As Lead Developer in Alchemy’s App Lab program I am responsible for managing development teams across multiple client projects, performing code reviews with developers, approving and merging pull requests,  architecting and building out new features, and resolving issues and bugs from the QA backlog. Current projects use ReactJS, Redux, React Router, Node.js, Express, Webpack, Cordova, TravisCI, Babel, Firebase, and Heroku, as well as HTML5, CSS3, Sass, and vanilla JavaScript." data-dates="Sept 2019 - Present" onClick={this.handleClick}>Lead Developer - Alchemy Code Lab</li>
+                    <li data-title="UI Developer" data-company="LosAngeleno.com" data-description="In my role as freelance UI developer for LA-based arts and entertainment website LosAngeleno.com I am responsible for maintaining the Wordpress theme the site runs on, making updates to the look and behavior of site components, and squashing bugs. I work mainly in HTML and CSS." data-dates="August 2019 - Present" onClick={this.handleClick}>UI Developer - LosAngeleno.com</li>
+                    <li 
+                    data-title="Tech Producer" data-company="Helios Interactive" data-description="As Tech Producer at Helios I worked with clients, producers, designers, and developers to keep projects on schedule and deliver working apps under strict deadlines. Part scrum master and part release manager, my role included architecting apps with developers, running sprints with project team members, identifying and prioritizing bugs with QA, and handling onsite and app store deployment with our ops team. " data-dates="July 2016 - Jan 2019" onClick={this.handleClick}>Tech Producer - Helios Interactive</li>
                     <li  
-                    data-title="Digital Director" data-company="Roger That Agency" data-description="As Digital Director at Roger That, I was responsible for sourcing and managing developers for clients’ web projects. I also wrote web copy, tracked site traffic and SEO metrics, and planned and launched PPC campaigns." data-dates="Nov 2014 - June 2016" onClick={this.handleClick}>Digital Director - Roger That Agency</li>
+                    data-title="Digital Director" data-company="Roger That Agency" data-description="As Digital Director at Roger That I was responsible for sourcing and managing developers for clients’ web projects, launching websites after development was complete, and maintaining site themes post-launch. After deployment I would make presentational changes to the look and behavior of site components as well as help clients with email set-up, domain transfers, and other technical issues. 
+                    " data-dates="Nov 2014 - June 2016" onClick={this.handleClick}>Digital Director - Roger That Agency</li>
                     <li  
                     data-title="Social Media Manager" data-company="Pink Martini/Heinz Records" data-description="As Social Media Manager at Pink Martini, I was responsible for managing the social media accounts for Pink Martini and Heinz Records, including planning and executing digital giveaways, writing and distributing blog content, and making HTML/CSS updates to their websites." data-dates="May 2013 - Sept 2014" onClick={this.handleClick}>Social Media Manager - Pink Martini</li>
                     <li 
