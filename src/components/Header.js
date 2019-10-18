@@ -36,8 +36,8 @@ export default function Header() {
         </nav>
         <a href="#main-menu-toggle"
           className="backdrop"
-          tabIndex="-1"
-          aria-hidden="true" hidden>Menu toggle</a>
+          tabIndex="-10"
+          aria-hidden="true" hidden></a>
         <section className="social-links">
             <a href="https://twitter.com/HereCodesNothin" target="blank"><img style={{ width: '45px', height: '45px', margin: 'auto 7px' }} src={twitter} alt="Twitter logo" /></a>
             <a href="https://www.linkedin.com/in/benparisot/" target="blank"><img style={{ width: '45px', height: '45px', margin: 'auto 7px' }} src={linkedin} alt="LinkedIn logo" /></a>
