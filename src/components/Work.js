@@ -7,15 +7,9 @@ export default class Work extends PureComponent {
         company: 'Alchemy Code Lab',
         description: 'As Lead Developer in Alchemy’s App Lab program I am responsible for managing development teams across multiple client projects, performing code reviews with developers, approving and merging pull requests,  architecting and building out new features, and resolving issues and bugs from the QA backlog. Current projects use ReactJS, Redux, React Router, Node.js, Express, Webpack, Cordova, TravisCI, Babel, Firebase, and Heroku, as well as HTML5, CSS3, Sass, and vanilla JavaScript..',
         dates: 'Sept 2019 - Present',
-        // selected: null
     }
 
     handleClick = (e) => {
-        // if(this.state.selected === e.currentTarget.dataset.position) {
-        //     this.setState({ selected: null })
-        // } else {
-        //     this.setState({ selected: e.currentTarget.dataset.position })
-        // }
         this.setState({
             title: e.currentTarget.dataset.title,
             company: e.currentTarget.dataset.company,
@@ -23,15 +17,7 @@ export default class Work extends PureComponent {
             dates: e.currentTarget.dataset.dates, 
             color: !this.state.color
         })
-        console.log(this.state);
     }
-
-    // changeColor = (position) => {
-    //     if(this.state.selected === position) {
-    //         return "#ed4b64";
-    //     } 
-    //     return "#2d2a32";
-    // }
 
     render() {
         return (
