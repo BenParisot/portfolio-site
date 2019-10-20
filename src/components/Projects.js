@@ -1,8 +1,8 @@
 import React from 'react';
 import Project from './Project';
 import robot from '../assets/robot.png';
-import track2020 from '../assets/track2020.jpg';
-import pokemon from '../assets/pokemon.jpg';
+import news from '../assets/news.jpg';
+import giphy from '../assets/giphy.jpg';
 import meganap from '../assets/meganap.jpg';
 
 export default function Projects() {
@@ -12,8 +12,8 @@ export default function Projects() {
                 <section className="projects">
                     <Project title="Mega Nap" image={meganap} description="A full-stack web app that allows front end developers to input data and generate RESTful API endpoints for use in their own applications." uses="Node.js, React/Redux, HTML, StyledComponents, MongoDB, Heroku, Netlify" demo="Live Demo" demoLink="https://www.meganap.com/" repo="Github Repo" repoLink="https://github.com/grandpapi" color="#ed4b64" />
                     <Project title="Robot Haikubot" image={robot} description="A Twitter bot that sends a randomly-generated haiku to those that ask for one." uses="Node.js, Express, MongoDB, Heroku" demo="Twitter Account" demoLink="https://twitter.com/RobotHaikubot" repo="Github Repo" repoLink="https://github.com/team-haikubot" color="#f26639" />
-                    <Project title="Track 2020" image={track2020} description="An app to help people track their favorite candidates during the 2020 democratic primary." demo="In Development" repo="Github Repo" repoLink="https://github.com/track-2020" color="#f04d4d" />
-                    <Project title="Pokematch" image={pokemon} description="A Pokemon matching game to teach kids numbers and pattern recognition." demo="In Development" repo="Github Repo" repoLink="https://github.com/BenParisot/pokematch" color="#ed4b64" />
+                    <Project title="The News!" image={news} description="A news search website that retrieves news articles relevant to a user’s search from NewsAPI.org and paginates the results." uses="Vanilla JavaScript, HTML, CSS, Netlify" demo="Live Demo" demoLink="https://parisot-news-search.netlify.com" repo="Github Repo" repoLink="https://github.com/BenParisot/search-page-api" color="#f04d4d" />
+                    <Project title="Talk Giphy to Me" image={giphy} description="A gif translation and guessing game that lets players save their favorite gifs to individual and shared database collections." uses="Vanilla JavaScript, HTML, CSS, Firebase, Netlify" demo="Live Demo" demoLink="https://talkgiphytome.netlify.com/" repo="Github Repo" repoLink="https://github.com/team-dancing-pug/talk-giphy" color="#ed4b64" />
                 </section>
                 <section className="github-cta">
                     <a target="blank" href="https://github.com/benparisot"><button className="github-cta-button">View more of my code on GitHub</button></a>
