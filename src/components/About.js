@@ -1,5 +1,6 @@
 import React from 'react';
 import ben from '../assets/ben-parisot-styled.jpg';
+import resume from '../assets/resume.pdf';
 
 export default function About() {
     return (
@@ -42,7 +43,7 @@ export default function About() {
                 </section>
                 </section>
                 <section className="about-button">
-                    <a target="blank" href="https://www.slideshare.net/slideshow/embed_code/key/3TdRrR76DWyZoP"><button>View My Full Resume</button></a>
+                    <a target="blank" href={resume}><button>View My Full Resume</button></a>
                 </section>
             </section>
         </section>
