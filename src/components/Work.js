@@ -35,7 +35,7 @@ export default class Work extends PureComponent {
 
     render() {
         return (
-            <section id="experience" className="work">
+            <section className="work">
                 <h2>My Work Experience:</h2>
                 <ul className="experience">
                     <li 

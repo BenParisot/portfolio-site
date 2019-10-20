@@ -3,7 +3,7 @@ import ben from '../assets/ben-parisot-styled.jpg';
 
 export default function About() {
     return (
-        <section id="about" className="about">
+        <section className="about">
             <section className="about-left">
                 <img src={ben} alt="Ben Parisot JavaScript Developer" />
                 <section className="introduction">

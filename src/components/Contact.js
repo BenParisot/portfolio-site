@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
     return (
-        <section id="contact" className="contact">
+        <section className="contact">
                 <section className="contact-message">
                     <p>I'm currently available for fulltime and contract positions. Give me a call or drop me a line and let's chat!</p>
                 </section>

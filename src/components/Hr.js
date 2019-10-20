@@ -1,17 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Hr({ color }) {
+function Hr({ color, id }) {
     const styles = {
         background: color,
         height: '.625rem',
         border: 'none'
     }
-    return <hr style={styles} />
+    return <hr id={id} style={styles} />
 }
 
 Hr.propTypes = {
-    color: PropTypes.string.isRequired
+    color: PropTypes.string.isRequired,
+    id: PropTypes.string
 }
 
 export default Hr;

@@ -11,16 +11,16 @@ import Contact from '../components/Contact';
 
 function Home() {
   return (
-    <div className="App">
+    <div id="top" className="App">
       <Header />
       <Hero />
-      <Hr color="#f04d4d" />
+      <Hr id="about" color="#f04d4d" />
       <About />
-      <Hr color="#f26639" />
+      <Hr id="projects" color="#f26639" />
       <Projects />
-      <Hr color="#f04d4d" />
+      <Hr id="experience" color="#f04d4d" />
       <Work />
-      <Hr color="#f26639" />
+      <Hr id="contact" color="#f26639" />
       <Contact />
       <Footer />
     </div>

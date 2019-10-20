@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Project({ title, image, description, demo, demoLink, repo, repoLink, color }) {
+function Project({ title, image, description, uses, demo, demoLink, repo, repoLink, color }) {
 
     const styles = {
         background: color
@@ -13,6 +13,7 @@ function Project({ title, image, description, demo, demoLink, repo, repoLink, co
             </section>
             <img src={image} alt={title} />
             <p>{description}</p>
+            <p>Built with {uses}</p>
             <h4><a target="blank" href={demoLink}>{demo}</a>   <span className="project-spacer">|</span>   <a target="blank" href={repoLink}>{repo}</a></h4>
         </section>
     )
@@ -22,6 +23,7 @@ Project.propTypes = {
     title: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
+    uses: PropTypes.string.isRequired,
     demo: PropTypes.string,
     demoLink: PropTypes.string,
     repo: PropTypes.string,
