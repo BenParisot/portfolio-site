@@ -1354,6 +1354,8 @@ footer a, footer p  {
 }
 
 .main-side p {
+  display: block;
+  margin-top: 2rem;
   font-size: 1.125rem;
 }
 

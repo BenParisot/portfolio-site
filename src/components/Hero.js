@@ -12,7 +12,8 @@ export default function Hero() {
     </section>
     <section className="hero-right">
       <section className="main-side">
-        <p>I’m a full stack software engineer with a passion for intuitive design, test-driven development, and writing DRY code. I believe good design drives clear product requirements and leads to better technical understanding. I’m a creative at heart and view every new project as an opportunity to build something elegant and useful.</p>
+        <h2>I'm A Design-Driven Full Stack Engineer</h2>
+        <p>I believe good design leads to clear product requirements and better technical understanding. Let's work together to build something elegant and useful.</p>
       </section>
     </section>
   </section>
