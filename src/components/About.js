@@ -8,7 +8,7 @@ export default function About() {
             <section className="about-left">
                 <img src={ben} alt="Ben Parisot JavaScript Developer" />
                 <section className="introduction">
-                    <p>Hello! I'm Ben Parisot, a former technical producer turned software developer that enjoys designing and building web apps.</p>
+                    <p>Thanks for checking out my portfolio! Have a look at the tech and tools I use here and see some of my recent projects below.</p>
                 </section>
             </section>
             <section className="about-right">

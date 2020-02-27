@@ -12,7 +12,7 @@ export default function Hero() {
     </section>
     <section className="hero-right">
       <section className="main-side">
-        <p>I’m a full-stack JavaScript engineer and former technical producer with experience building intuitive, user-focused applications with back- and front-end web technologies and managing both external stakeholders and internal development teams.</p>
+        <p>I’m a full stack software engineer with a passion for intuitive design, test-driven development, and writing DRY code. I believe good design drives clear product requirements and leads to better technical understanding. I’m a creative at heart and view every new project as an opportunity to build something elegant and useful.</p>
       </section>
     </section>
   </section>
