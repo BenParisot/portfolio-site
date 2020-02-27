@@ -2,7 +2,6 @@ import React from 'react';
 import Project from './Project';
 import robot from '../assets/robot.png';
 import news from '../assets/news.jpg';
-import giphy from '../assets/giphy.jpg';
 import meganap from '../assets/meganap.jpg';
 import weather from '../assets/weather.jpg';
 
